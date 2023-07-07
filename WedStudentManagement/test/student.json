@@ -1,0 +1,33 @@
+[
+    {
+    "name": "Phung Thanh Do",
+    "id": "dochet1989",
+    "password": "123",
+     "email": "do@gmail.com",
+    "phone": "0972123374",
+    "address": "Cao Bang",
+    "gender": "male",
+     "createdAt":"06/07/2023 23:30:45 "
+  },
+  {
+    "name": "Co Nguyet Na",
+    "id": "guyuena",
+    "password": "123",
+     "email": "yuena@gmail.com",
+    "phone": "0983746352",
+    "address": "QOOO",
+    "gender": "female",
+     "createdAt":"06/07/2023 23:34:45 "
+  }
+  ,
+  {
+    "name": "Nguyen Nhat Anh",
+    "id": "anh",
+    "password": "123",
+     "email": "anh@gmail.com",
+    "phone": "0983798752",
+    "address": "Ha Noi",
+    "gender": "male",
+     "createdAt":"06/07/2023 23:34:41 "
+  }
+]

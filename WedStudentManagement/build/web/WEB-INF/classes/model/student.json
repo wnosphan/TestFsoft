@@ -1,0 +1,67 @@
+[{
+        "createdAt": "07\/07\/2023 23:12:45",
+        "password": "123",
+        "address": "Bac Ninh",
+        "gender": "Female",
+        "phone": "0938492748",
+        "name": "Trinh Thi Thanh Thanh ",
+        "id": "thanhthanh",
+        "email": "thanhthanh@gmail.com"
+    }, {
+        "createdAt": "07\/07\/2023 23:10:17",
+        "password": "123",
+        "address": "Ar",
+        "gender": "Male",
+        "phone": "0983293842",
+        "name": "Lionel Messi",
+        "id": "m10",
+        "email": "m10@gmail.com"
+    }, {
+        "createdAt": "07\/07\/2023 23:06:19",
+        "password": "123",
+        "address": "Portugal",
+        "gender": "Male",
+        "phone": "0938137482",
+        "name": "Cristiano Rolnado",
+        "id": "c",
+        "email": "cr7@gmail.com"
+    }, {
+        "createdAt": "06\/07\/2023 15:30:45 ",
+        "password": "123",
+        "address": "Tay Son, Binh Dinh",
+        "gender": "male",
+        "phone": "0972839374",
+        "name": "Phan Mai Son",
+        "id": "qe170092",
+        "email": "son@gmail.com"
+    }, {
+        "name": "Phung Thanh Do",
+        "id": "dochet1989",
+        "password": "123",
+        "email": "do@gmail.com",
+        "phone": "0972123374",
+        "address": "Cao Bang",
+        "gender": "male",
+        "createdAt": "06/07/2023 23:30:45 "
+    },
+    {
+        "name": "Co Nguyet Na",
+        "id": "guyuena",
+        "password": "123",
+        "email": "yuena@gmail.com",
+        "phone": "0983746352",
+        "address": "QOOO",
+        "gender": "female",
+        "createdAt": "06/07/2023 23:34:45 "
+    }
+    ,
+    {
+        "name": "Nguyen Nhat Anh",
+        "id": "anh",
+        "password": "123",
+        "email": "anh@gmail.com",
+        "phone": "0983798752",
+        "address": "Ha Noi",
+        "gender": "male",
+        "createdAt": "06/07/2023 23:34:41 "
+    }]
