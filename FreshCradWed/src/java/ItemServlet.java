@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -41,9 +42,10 @@ public class ItemServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        ItemDAO i = new ItemDAO();
-        List<Item> list= i.getAll();
-        request.setAttribute("data", i);
+         HttpSession session = request.getSession();
+         ItemDAO i= new ItemDAO();
+        List<Item> list=i.getAll();
+        session.setAttribute("listProduct",list);
         request.getRequestDispatcher("shop-wishlist.jsp").forward(request, response);
     }
 
@@ -53,11 +55,5 @@ public class ItemServlet extends HttpServlet {
             throws ServletException, IOException {
         
     }
-
-   
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
 
 }
