@@ -7,7 +7,7 @@ package model;
 /**
  *
  * @author ADMIN
- */
+ */  
 public class Student {
 
     private String name;
